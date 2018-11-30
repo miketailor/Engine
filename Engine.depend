@@ -1,0 +1,749 @@
+# depslib dependency file v1.0
+1543414447 source:c:\users\michalkrawczyk\myprojects\engine\src\graphics\window.cpp
+	"window.h"
+	<iostream>
+
+1543386404 c:\users\michalkrawczyk\myprojects\engine\src\graphics\window.h
+	<string>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+
+1531218721 c:\dev libs\glew-2.1.0\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1531207124 c:\dev libs\glfw-3.2.1.bin.win32\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1543486994 source:c:\users\michalkrawczyk\myprojects\engine\main.cpp
+	"src/application.h"
+
+1543386125 c:\users\michalkrawczyk\myprojects\engine\src\graphics\shader.h
+	"../utils/fileutils.h"
+	"GL/glew.h"
+	<vector>
+	"../maths/maths.h"
+	"../maths/glm_include.h"
+
+1531838175 c:\users\michalkrawczyk\myprojects\engine\src\utils\fileutils.h
+	<string>
+	<fstream>
+	<sstream>
+
+1543385883 c:\users\michalkrawczyk\myprojects\engine\src\maths\maths.h
+	"math_func.h"
+
+1531838144 c:\users\michalkrawczyk\myprojects\engine\src\maths\vec2.h
+	<iostream>
+
+1531838176 c:\users\michalkrawczyk\myprojects\engine\src\maths\vec3.h
+	<iostream>
+
+1531838176 c:\users\michalkrawczyk\myprojects\engine\src\maths\vec4.h
+	<iostream>
+
+1531838176 c:\users\michalkrawczyk\myprojects\engine\src\maths\mat4.h
+	"maths.h"
+	<iostream>
+
+1543385714 c:\users\michalkrawczyk\myprojects\engine\src\maths\math_func.h
+
+1543386120 source:c:\users\michalkrawczyk\myprojects\engine\src\graphics\shader.cpp
+	"shader.h"
+	"../../3rdparty/glm/glm.hpp"
+
+1531841714 source:c:\users\michalkrawczyk\myprojects\engine\src\maths\mat4.cpp
+	"mat4.h"
+	<cstring>
+	<math.h>
+
+1531841776 source:c:\users\michalkrawczyk\myprojects\engine\src\maths\vec2.cpp
+	"vec2.h"
+
+1531841776 source:c:\users\michalkrawczyk\myprojects\engine\src\maths\vec3.cpp
+	"vec3.h"
+
+1531841776 source:c:\users\michalkrawczyk\myprojects\engine\src\maths\vec4.cpp
+	"vec4.h"
+
+1531838176 source:c:\users\michalkrawczyk\myprojects\engine\src\utils\fileutils.cpp
+	"fileutils.h"
+	<stdexcept>
+
+1531838804 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\glm.hpp
+	"detail/_fixes.hpp"
+	"detail/setup.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\_fixes.hpp
+	<cmath>
+
+1531838806 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1531838813 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\simd\platform.h
+	<cuda.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1531838804 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\fwd.hpp
+	"detail/setup.hpp"
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1531838806 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1531838806 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1531838807 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_vec.hpp
+	"qualifier.hpp"
+	"type_int.hpp"
+	"compute_vector_relational.hpp"
+
+1531838806 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\qualifier.hpp
+	"setup.hpp"
+	"type_int.hpp"
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\compute_vector_relational.hpp
+	"compute_common.hpp"
+	"setup.hpp"
+	<limits>
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\compute_common.hpp
+	"setup.hpp"
+	<limits>
+
+1531838806 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_mat.hpp
+	"qualifier.hpp"
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\vec2.hpp
+	"detail/setup.hpp"
+	"detail/type_vec2.hpp"
+
+1531838807 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\_swizzle.hpp
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\_swizzle_func.hpp
+
+1531838807 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_vec2.inl
+	"./compute_vector_relational.hpp"
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\vec3.hpp
+	"detail/setup.hpp"
+	"detail/type_vec3.hpp"
+
+1531838807 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1531838807 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_vec3.inl
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\vec4.hpp
+	"detail/setup.hpp"
+	"detail/type_vec4.hpp"
+
+1531838807 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1531838807 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1531838807 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_vec4_simd.inl
+
+1531838804 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\mat2x2.hpp
+	"detail/setup.hpp"
+	"detail/type_mat2x2.hpp"
+
+1531838806 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1531838806 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_mat2x2.inl
+	"../matrix.hpp"
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\matrix.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"detail/type_mat.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"detail/func_matrix.inl"
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\mat2x3.hpp
+	"detail/setup.hpp"
+	"detail/type_mat2x3.hpp"
+
+1531838806 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1531838806 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_mat2x3.inl
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\mat2x4.hpp
+	"detail/setup.hpp"
+	"detail/type_mat2x4.hpp"
+
+1531838806 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1531838806 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_mat2x4.inl
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\mat3x2.hpp
+	"detail/setup.hpp"
+	"detail/type_mat3x2.hpp"
+
+1531838806 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1531838806 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_mat3x2.inl
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\mat3x3.hpp
+	"detail/setup.hpp"
+	"detail/type_mat3x3.hpp"
+
+1531838806 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1531838807 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_mat3x3.inl
+	"../matrix.hpp"
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\mat3x4.hpp
+	"detail/setup.hpp"
+	"detail/type_mat3x4.hpp"
+
+1531838807 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1531838807 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_mat3x4.inl
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\mat4x2.hpp
+	"detail/setup.hpp"
+	"detail/type_mat4x2.hpp"
+
+1531838807 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1531838807 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_mat4x2.inl
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\mat4x3.hpp
+	"detail/setup.hpp"
+	"detail/type_mat4x3.hpp"
+
+1531838807 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1531838807 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_mat4x3.inl
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\mat4x4.hpp
+	"detail/setup.hpp"
+	"detail/type_mat4x4.hpp"
+
+1531838807 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1531838807 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_mat4x4.inl
+	"../matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1531838807 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_mat4x4_simd.inl
+
+1531838806 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1531838804 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\geometric.hpp
+	"detail/type_vec3.hpp"
+	"detail/func_geometric.inl"
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\func_geometric.inl
+	"../exponential.hpp"
+	"../common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1531838804 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\exponential.hpp
+	"detail/type_vec1.hpp"
+	"detail/type_vec2.hpp"
+	"detail/type_vec3.hpp"
+	"detail/type_vec4.hpp"
+	<cmath>
+	"detail/func_exponential.inl"
+
+1531838807 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_vec1.hpp
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\func_exponential.inl
+	"../vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\vector_relational.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"detail/func_vector_relational.inl"
+
+1531838806 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\func_vector_relational.inl
+	"compute_vector_relational.hpp"
+	"func_vector_relational_simd.inl"
+
+1531838806 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\func_vector_relational_simd.inl
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\_vectorize.hpp
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1531838813 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\simd\exponential.h
+	"platform.h"
+
+1531838804 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\common.hpp
+	"detail/setup.hpp"
+	"detail/qualifier.hpp"
+	"detail/type_int.hpp"
+	"detail/_fixes.hpp"
+	"detail/func_common.inl"
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\func_common.inl
+	"../vector_relational.hpp"
+	"compute_common.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1531838813 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\simd\common.h
+	"platform.h"
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1531838813 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\simd\geometric.h
+	"common.h"
+
+1531838806 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"../geometric.hpp"
+	"../simd/matrix.h"
+	<cstring>
+
+1531838813 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\simd\matrix.h
+	"geometric.h"
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\trigonometric.hpp
+	"detail/setup.hpp"
+	"detail/qualifier.hpp"
+	"detail/func_trigonometric.inl"
+
+1531838806 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1531838806 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\func_trigonometric_simd.inl
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\packing.hpp
+	"detail/type_vec2.hpp"
+	"detail/type_vec4.hpp"
+	"detail/func_packing.inl"
+
+1531838806 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\func_packing.inl
+	"../common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1531838806 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1531838806 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_half.inl
+
+1531838806 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\func_packing_simd.inl
+
+1531838804 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\integer.hpp
+	"detail/setup.hpp"
+	"detail/qualifier.hpp"
+	"common.hpp"
+	"vector_relational.hpp"
+	"detail/func_integer.inl"
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\func_integer.inl
+	"../ext/vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1531838807 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\ext\vec1.hpp
+	"../fwd.hpp"
+	"../detail/type_vec.hpp"
+	"../detail/_swizzle.hpp"
+	"../detail/_swizzle_func.hpp"
+	<cstddef>
+	"../detail/type_vec1.inl"
+
+1531838807 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\type_vec1.inl
+
+1531838805 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1531838813 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\simd\integer.h
+
+1531838808 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1531838808 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1531838808 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\gtc\constants.inl
+	<limits>
+
+1531838808 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1531838809 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../gtc/vec1.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1531838808 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1531838808 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	"epsilon.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1531838808 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\gtc\epsilon.hpp
+	"../detail/setup.hpp"
+	"../detail/qualifier.hpp"
+	"epsilon.inl"
+
+1531838808 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\gtc\epsilon.inl
+	"quaternion.hpp"
+	"../vector_relational.hpp"
+	"../common.hpp"
+	"../detail/type_vec.hpp"
+
+1531838808 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\gtc\quaternion_simd.inl
+
+1531838809 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\gtc\vec1.hpp
+	"../ext/vec1.hpp"
+	"vec1.inl"
+
+1531838809 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\gtc\vec1.inl
+
+1531838809 c:\users\michalkrawczyk\myprojects\engine\3rdparty\glm\gtc\type_ptr.inl
+	<cstring>
+
+1532019035 source:c:\users\michalkrawczyk\myprojects\engine\src\graphics\buffer.cpp
+	"buffer.h"
+
+1532530119 c:\users\michalkrawczyk\myprojects\engine\src\graphics\buffer.h
+	<GL/glew.h>
+
+1532025424 source:c:\users\michalkrawczyk\myprojects\engine\3rdparty\stb_image\stb_image.cpp
+	"stb_image.h"
+
+1532025426 c:\users\michalkrawczyk\myprojects\engine\3rdparty\stb_image\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1532529052 source:c:\users\michalkrawczyk\myprojects\engine\src\graphics\indexbuffer.cpp
+	"indexBuffer.h"
+
+1532529021 c:\users\michalkrawczyk\myprojects\engine\src\graphics\indexbuffer.h
+	<GL/glew.h>
+
+1543310122 source:c:\users\michalkrawczyk\myprojects\engine\src\graphics\vertexarray.cpp
+	"vertexArray.h"
+
+1532529663 c:\users\michalkrawczyk\myprojects\engine\src\graphics\vertexarray.h
+	<vector>
+	"GL/glew.h"
+	"buffer.h"
+
+1534688033 source:c:\users\michalkrawczyk\myprojects\engine\src\graphics\texture.cpp
+	"texture.h"
+	"../../3rdparty/stb_image/stb_image.h"
+	<iostream>
+
+1534686772 c:\users\michalkrawczyk\myprojects\engine\src\graphics\texture.h
+	<GL/glew.h>
+
+1534500201 c:\users\michalkrawczyk\myprojects\engine\src\graphics\framebuffer.h
+	"texture.h"
+
+1542176102 source:c:\users\michalkrawczyk\myprojects\engine\src\graphics\framebuffer.cpp
+	"frameBuffer.h"
+	<iostream>
+
+1541605988 c:\users\michalkrawczyk\myprojects\engine\src\graphics\scene\cube.h
+	"renderable3D.h"
+
+1541606197 source:c:\users\michalkrawczyk\myprojects\engine\src\graphics\scene\cube.cpp
+	"cube.h"
+	<iostream>
+
+1543476046 c:\users\michalkrawczyk\myprojects\engine\src\maths\glm_include.h
+	"../../3rdparty/glm/glm.hpp"
+	"../../3rdparty/glm/gtc/matrix_transform.hpp"
+	"../../3rdparty/glm/gtc/type_ptr.hpp"
+	"../../3rdparty/glm/gtc/quaternion.hpp"
+
+1543476082 c:\users\michalkrawczyk\myprojects\engine\src\graphics\scene\renderable3d.h
+	"../vertexArray.h"
+	"../textureAtlas.h"
+	"../indexBuffer.h"
+	"../../maths/glm_include.h"
+	<iostream>
+
+1534687276 source:c:\users\michalkrawczyk\myprojects\engine\src\graphics\textureatlas.cpp
+	"textureAtlas.h"
+
+1534688069 c:\users\michalkrawczyk\myprojects\engine\src\graphics\textureatlas.h
+	"texture.h"
+	"../maths/glm_include.h"
+
+1542348260 source:c:\users\michalkrawczyk\myprojects\engine\src\graphics\scene\scene.cpp
+	"scene.h"
+
+1542175340 c:\users\michalkrawczyk\myprojects\engine\src\graphics\scene\scene.h
+	"../frameBuffer.h"
+	"renderable3D.h"
+	<vector>
+	"../shader.h"
+
+1542347315 source:c:\users\michalkrawczyk\myprojects\engine\src\graphics\scene\camera.cpp
+	"camera.h"
+
+1542348185 c:\users\michalkrawczyk\myprojects\engine\src\graphics\scene\camera.h
+	"../../maths/glm_include.h"
+
+1543497030 c:\users\michalkrawczyk\myprojects\engine\src\application.h
+	"graphics/window.h"
+	"states/statemanager.h"
+
+1543497836 source:c:\users\michalkrawczyk\myprojects\engine\src\application.cpp
+	"application.h"
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<iostream>
+	"graphics/shader.h"
+	"graphics/texture.h"
+	"graphics/textureAtlas.h"
+	"graphics/frameBuffer.h"
+	"graphics/vertexArray.h"
+	"graphics/buffer.h"
+	"graphics/indexBuffer.h"
+	"graphics/scene/cube.h"
+	"graphics/scene/scene.h"
+	"states/statemanager.h"
+
+1543494772 source:c:\users\michalkrawczyk\myprojects\engine\src\states\statemanager.cpp
+	"statemanager.h"
+
+1543494726 c:\users\michalkrawczyk\myprojects\engine\src\states\statemanager.h
+	"istate.h"
+	<memory>
+	<stack>
+
+1543497425 c:\users\michalkrawczyk\myprojects\engine\src\states\istate.h
+
+1543495020 source:c:\users\michalkrawczyk\myprojects\engine\src\states\playingstate.cpp
+	"playingstate.h"
+
+1543497305 c:\users\michalkrawczyk\myprojects\engine\src\states\playingstate.h
+	"istate.h"
+

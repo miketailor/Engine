@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Engine" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Engine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DDEBUG" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Engine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++14" />
+			<Add option="-m32" />
+			<Add option="-DGLEW_STATIC" />
+			<Add directory="C:/dev libs/glew-2.1.0/include" />
+			<Add directory="C:/dev libs/glfw-3.2.1.bin.WIN32/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-m32" />
+			<Add library="glfw3" />
+			<Add library="glew32s" />
+			<Add library="opengl32" />
+			<Add library="kernel32" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add directory="C:/dev libs/glew-2.1.0/lib/Release/Win32" />
+			<Add directory="C:/dev libs/glfw-3.2.1.bin.WIN32/lib-mingw" />
+		</Linker>
+		<Unit filename="3rdparty/stb_image/stb_image.cpp" />
+		<Unit filename="3rdparty/stb_image/stb_image.h" />
+		<Unit filename="data/shaders/basic.frag" />
+		<Unit filename="data/shaders/basic.vert" />
+		<Unit filename="data/shaders/framebuffer.frag" />
+		<Unit filename="data/shaders/framebuffer.vert" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/application.cpp" />
+		<Unit filename="src/application.h" />
+		<Unit filename="src/graphics/basicrenderer.h" />
+		<Unit filename="src/graphics/buffer.cpp" />
+		<Unit filename="src/graphics/buffer.h" />
+		<Unit filename="src/graphics/frameBuffer.cpp" />
+		<Unit filename="src/graphics/frameBuffer.h" />
+		<Unit filename="src/graphics/indexBuffer.cpp" />
+		<Unit filename="src/graphics/indexBuffer.h" />
+		<Unit filename="src/graphics/masterrenderer.cpp" />
+		<Unit filename="src/graphics/masterrenderer.h" />
+		<Unit filename="src/graphics/renderer.h" />
+		<Unit filename="src/graphics/scene/Renderable2D.h" />
+		<Unit filename="src/graphics/scene/camera.cpp" />
+		<Unit filename="src/graphics/scene/camera.h" />
+		<Unit filename="src/graphics/scene/cube.cpp" />
+		<Unit filename="src/graphics/scene/cube.h" />
+		<Unit filename="src/graphics/scene/entity.h" />
+		<Unit filename="src/graphics/scene/renderable3D.h" />
+		<Unit filename="src/graphics/scene/scene.cpp" />
+		<Unit filename="src/graphics/scene/scene.h" />
+		<Unit filename="src/graphics/shader.cpp" />
+		<Unit filename="src/graphics/shader.h" />
+		<Unit filename="src/graphics/texture.cpp" />
+		<Unit filename="src/graphics/texture.h" />
+		<Unit filename="src/graphics/textureAtlas.cpp" />
+		<Unit filename="src/graphics/textureAtlas.h" />
+		<Unit filename="src/graphics/vertexArray.cpp" />
+		<Unit filename="src/graphics/vertexArray.h" />
+		<Unit filename="src/graphics/window.cpp" />
+		<Unit filename="src/graphics/window.h" />
+		<Unit filename="src/maths/glm_include.h" />
+		<Unit filename="src/maths/math_func.h" />
+		<Unit filename="src/maths/maths.h" />
+		<Unit filename="src/states/istate.h" />
+		<Unit filename="src/states/playingstate.cpp" />
+		<Unit filename="src/states/playingstate.h" />
+		<Unit filename="src/states/statemanager.cpp" />
+		<Unit filename="src/states/statemanager.h" />
+		<Unit filename="src/utils/fileutils.cpp" />
+		<Unit filename="src/utils/fileutils.h" />
+		<Unit filename="src/utils/timer.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
