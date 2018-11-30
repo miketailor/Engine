@@ -75,6 +75,7 @@ graphics::TextureAtlas texture((char *)"data/textures/atlas.png",1024);
 graphics::Cube cube(glm::vec3(0.0,0.0,0.0), glm::vec3(0.5,0.0,0.0), glm::vec3(1.0,1.0,1.0), &texture);
 graphics::Cube cube1(glm::vec3(2.0,1.0,0.0), glm::vec3(0.0,0.5,0.0), glm::vec3(1.0,1.0,1.0), &texture);
 graphics::Cube cube2(glm::vec3(0.0,-1.0,0.0), glm::vec3(0.0,0.0,0.5), glm::vec3(0.5,0.5,0.5), &texture);
+graphics::Cube cube3(glm::vec3(0.0,-1.0,0.0), glm::vec3(0.0,0.0,0.5), glm::vec3(0.5,0.5,0.5), &texture);
 
 
 graphics::VertexArray FBvao;
@@ -121,13 +122,14 @@ double currentTime = glfwGetTime();
      nbFrames++;
      if ( currentTime - lastTime >= 1.0 ){ // If last prinf() was more than 1 sec ago
          // printf and reset timer
-         printf("%f ms/frame\n", 1000.0/double(nbFrames));
+         printf("%f ms/frame    FPS:%d\n", 1000.0/double(nbFrames),nbFrames);
+
          nbFrames = 0;
          lastTime += 1.0;
      }
 //end FPS counter
 
-
+    int swapinterval = 0;
 
 
     if (window->isKeyPressed(GLFW_KEY_W))
@@ -140,8 +142,21 @@ double currentTime = glfwGetTime();
         View = glm::translate(View,glm::vec3(0,0,-0.1));
     if (window->isKeyPressed(GLFW_KEY_Q))
         break;
+    if (window->isKeyPressed(GLFW_KEY_F8))
+    {
+    swapinterval = 0;
 
+        std::cout<<swapinterval<<std::endl;
+        glfwSwapInterval(swapinterval);
+    }
 
+    if (window->isKeyPressed(GLFW_KEY_F9))
+    {
+    swapinterval = 1;
+
+        std::cout<<swapinterval<<std::endl;
+        glfwSwapInterval(swapinterval);
+    }
 
 
     window->centerMousePosition();
