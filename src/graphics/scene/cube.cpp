@@ -112,7 +112,7 @@ Cube::~Cube()
 {
     delete m_vao;
     delete m_ibo;
-    delete m_texture;
+
     std::cout<<"cube destroyed"<<std::endl;
 }
 
