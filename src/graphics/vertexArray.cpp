@@ -12,7 +12,7 @@ VertexArray::~VertexArray()
 {
     for (auto buffer:buffers)
     {
-       delete buffer;
+       //delete buffer;
     }
 }
 
