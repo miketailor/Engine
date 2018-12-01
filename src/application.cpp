@@ -13,7 +13,7 @@
 #include "graphics/scene/cube.h"
 #include "graphics/scene/scene.h"
 #include "states/statemanager.h"
-
+#include "graphics/scene/camera.h"
 
 namespace mike {
 
@@ -30,7 +30,7 @@ Application::~Application()
 void Application::init()
 {
 window = new graphics::Window("TEST",1600,900);
-stateManager = new state::StateManager();
+
 
 
 }
@@ -93,11 +93,10 @@ graphics::IndexBuffer FBibo(FBIndexes,3*2*1);
 
 glm::mat4 Projection = glm::perspective(glm::radians(45.0f), (float) 1600 / (float)900, 0.1f, 100.0f);
 
-glm::mat4 View = glm::lookAt(
-    glm::vec3(4,3,1), // Camera is at
-    glm::vec3(0,0,0), // and looks at
-    glm::vec3(0,1,0)  // Head is
-    );
+
+graphics::Camera camera(glm::vec3(0,4,-10),glm::vec3(0,-90,0));
+
+glm::mat4 View = camera.getview();
 
 
 
