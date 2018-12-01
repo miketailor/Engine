@@ -2,14 +2,14 @@
 #define APPLICATION_H_INCLUDED
 
 #include "graphics/window.h"
-#include "states/statemanager.h"
+
 
 namespace mike {
 class Application
 {
 private:
     graphics::Window* window;
-    state::StateManager* stateManager;
+
 public:
     Application();
     ~Application();

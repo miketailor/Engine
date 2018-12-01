@@ -788,15 +788,16 @@
 1543607501 c:\users\mike\documents\github\engine\src\graphics\indexbuffer.h
 	<GL/glew.h>
 
-1543613769 source:c:\users\mike\documents\github\engine\src\graphics\masterrenderer.cpp
+1543615195 source:c:\users\mike\documents\github\engine\src\graphics\masterrenderer.cpp
 	"masterrenderer.h"
 
 1543607501 c:\users\mike\documents\github\engine\src\graphics\masterrenderer.h
 
-1543607501 source:c:\users\mike\documents\github\engine\src\graphics\scene\camera.cpp
+1543674716 source:c:\users\mike\documents\github\engine\src\graphics\scene\camera.cpp
 	"camera.h"
 
-1543607501 c:\users\mike\documents\github\engine\src\graphics\scene\camera.h
+1543671829 c:\users\mike\documents\github\engine\src\graphics\scene\camera.h
+	"entity.h"
 	"../../maths/glm_include.h"
 
 1543607501 c:\users\mike\documents\github\engine\src\maths\glm_include.h
@@ -1379,9 +1380,8 @@
 1543607501 source:c:\users\mike\documents\github\engine\main.cpp
 	"src/application.h"
 
-1543607501 c:\users\mike\documents\github\engine\src\application.h
+1543695874 c:\users\mike\documents\github\engine\src\application.h
 	"graphics/window.h"
-	"states/statemanager.h"
 
 1543607501 c:\users\mike\documents\github\engine\src\graphics\window.h
 	<string>
@@ -1395,7 +1395,7 @@
 
 1543607501 c:\users\mike\documents\github\engine\src\states\istate.h
 
-1543613767 source:c:\users\mike\documents\github\engine\src\application.cpp
+1543670973 source:c:\users\mike\documents\github\engine\src\application.cpp
 	"application.h"
 	<GL/glew.h>
 	<GLFW/glfw3.h>
@@ -1410,6 +1410,7 @@
 	"graphics/scene/cube.h"
 	"graphics/scene/scene.h"
 	"states/statemanager.h"
+	"graphics/scene/camera.h"
 
 1543607501 source:c:\users\mike\documents\github\engine\src\graphics\shader.cpp
 	"shader.h"
@@ -1442,4 +1443,7 @@
 1543607501 source:c:\users\mike\documents\github\engine\src\utils\fileutils.cpp
 	"fileutils.h"
 	<stdexcept>
+
+1543671450 c:\users\mike\documents\github\engine\src\graphics\scene\entity.h
+	"../../maths/glm_include.h"
 

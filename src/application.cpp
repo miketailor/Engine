@@ -12,7 +12,7 @@
 #include "graphics/indexBuffer.h"
 #include "graphics/scene/cube.h"
 #include "graphics/scene/scene.h"
-#include "states/statemanager.h"
+
 #include "graphics/scene/camera.h"
 
 namespace mike {
